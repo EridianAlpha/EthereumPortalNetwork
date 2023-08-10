@@ -17,7 +17,10 @@ const customTheme = extendTheme({
                 bg: props.colorMode === "dark" ? "pageBackground.dark" : "pageBackground.light",
             },
             ".hero-container": {
-                bg: props.colorMode === "dark" ? lightenColor(props.colorMode, props.theme.colors.pageBackground.dark, 0.05) : "red",
+                bg:
+                    props.colorMode === "dark"
+                        ? lightenColor(props.colorMode, props.theme.colors.pageBackground.dark, 0.05)
+                        : "contentBackground.light",
             },
             ".faq-container": {
                 bg:
