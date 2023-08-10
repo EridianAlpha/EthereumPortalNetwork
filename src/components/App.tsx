@@ -186,7 +186,7 @@ const App = () => {
                                         Why do we need the Portal network?
                                     </Link>
                                     <Link as={NextLink} href="#faq-financial-incentives" fontWeight={"semibold"}>
-                                        Why aren't there financial incentives?
+                                        Why aren&apos;t there financial incentives?
                                     </Link>
                                     <Link as={NextLink} href="#faq-contribute" fontWeight={"semibold"}>
                                         How can you help contribute to ETH Portal Network development?
@@ -202,9 +202,9 @@ const App = () => {
                                         What is the Portal?
                                     </Text>
                                     <Text>
-                                        "Portal " is an in-progress effort to enable lightweight protocol access to resource-constrained devices. The
-                                        term "portal" indicates that these networks provide a view into the protocol but are not critical to the
-                                        operation of the core Ethereum protocol.
+                                        &quot;Portal&quot; is an in-progress effort to enable lightweight protocol access to resource-constrained
+                                        devices. The term &quot;portal&quot; indicates that these networks provide a view into the protocol but are
+                                        not critical to the operation of the core Ethereum protocol.
                                     </Text>
                                     <Text>
                                         The Portal Network will be comprised of one or more decentralized peer-to-peer networks which together provide
@@ -223,10 +223,11 @@ const App = () => {
                                             Full Functionality for Stateless Clients
                                         </Text>
                                         <Text>
-                                            The core Ethereum protocol is moving towards a "stateless" model of block verification. Under this model a
-                                            client will be able to fully verify the execution of a block using a witness. Such a client would no
-                                            longer need to keep or maintain any of the Ethereum "state" data. Such a client is very valuable in the
-                                            context of the core protocol, as it facilitates a cleaner merge of the Eth1 and Eth2 chains.
+                                            The core Ethereum protocol is moving towards a &quot;stateless&quot; model of block verification. Under
+                                            this model a client will be able to fully verify the execution of a block using a witness. Such a client
+                                            would no longer need to keep or maintain any of the Ethereum &quot;state&quot; data. Such a client is very
+                                            valuable in the context of the core protocol, as it facilitates a cleaner merge of the Eth1 and Eth2
+                                            chains.
                                             <br />
                                             <br />
                                             <Link as={NextLink} href="https://dankradfeist.de/ethereum/2021/02/14/why-stateless.html" target="_blank">
@@ -239,12 +240,12 @@ const App = () => {
                                             Scalable Lightweight Clients
                                         </Text>
                                         <Text>
-                                            The term "light client" tends to refer to a client of the existing DevP2P LES network. This network is
-                                            designed using a client/server architecture. The LES network has a total capacity dictated by the number
-                                            of "servers" on the network. In order for this network to scale, the "server" capacity has to increase.
-                                            This also means that at any point in time the network has some total capacity which if exceeded will cause
-                                            service degradation across the network. Because of this the LES network is unreliable when operating near
-                                            capacity.
+                                            The term &quot;light client&quot; tends to refer to a client of the existing DevP2P LES network. This
+                                            network is designed using a client/server architecture. The LES network has a total capacity dictated by
+                                            the number of &quot;servers&quot; on the network. In order for this network to scale, the
+                                            &quot;server&quot; capacity has to increase. This also means that at any point in time the network has
+                                            some total capacity which if exceeded will cause service degradation across the network. Because of this
+                                            the LES network is unreliable when operating near capacity.
                                         </Text>
                                         <Text>
                                             The Portal Network aims to solve this problem by designing our networks so that each additional client
@@ -255,14 +256,14 @@ const App = () => {
                                 </Flex>
                                 <Flex id="faq-financial-incentives" className="faq-container" direction={"column"} gap={5} p={10} borderRadius={50}>
                                     <Text fontWeight={"bold"} fontSize={"2xl"}>
-                                        Why aren't there financial incentives?
+                                        Why aren&apos;t there financial incentives?
                                     </Text>
                                     <Flex direction={"column"} gap={3} p={5} borderRadius={10} className="bgPage">
                                         <Text>TLDR: Incorrectly implemented incentives lead to perverse incentives.</Text>
                                     </Flex>
                                     <Text>
                                         Using financial incentives is a natural choice for many crypto/blockchain protocols. Well-designed incentives
-                                        can be a powerful tool to encourage proper use and discourage malicious behaviour. Incentives might seem
+                                        can be a powerful tool to encourage proper use and discourage malicious behavior. Incentives might seem
                                         especially well-suited for the Portal Network, where the strength of the network is correlated to the number
                                         of participants and the amount of contributed computing resources. However, at the current point in time,
                                         Portal Network developers have opted out of implementing financial incentives.
@@ -274,7 +275,7 @@ const App = () => {
                                         altruism and laziness, to encourage network adoption and sufficient computing resources.
                                     </Text>
                                     <Flex direction={"column"} gap={3} p={5} borderRadius={10} className="bgPage">
-                                        <Text>"Never underestimate the power of laziness and software defaults" - Piper</Text>
+                                        <Text>&quot;Never underestimate the power of laziness and software defaults&quot; - Piper</Text>
                                     </Flex>
                                     <Text>
                                         Protocols like BitTorrent and IPFS are proof that this is a feasible strategy. Furthermore, protocols like
@@ -287,7 +288,7 @@ const App = () => {
                                         How can you help contribute to ETH Portal Network development?
                                     </Text>
                                     <Text>
-                                        The ETH Portal Network development effort is an open, multi-team effort. If you're interested in helping
+                                        The ETH Portal Network development effort is an open, multi-team effort. If you&apos;re interested in helping
                                         contribute towards the design and implementation, join the ongoing discussion happening on the{" "}
                                         <Link as={NextLink} href="https://discord.gg/EquAzZ9UT" target="_blank">
                                             Discord server
@@ -302,8 +303,8 @@ const App = () => {
                                     </Text>
                                     <Text>
                                         The original pitch for Portal focused on delivering a network that allowed clients to serve JSON-RPC requests
-                                        by fetching data on demand from Portal. Recently we've come to understand that this use case will likely be
-                                        difficult based on network latencies, forcing us to re-evaluate our roadmap.
+                                        by fetching data on demand from Portal. Recently we&apos;ve come to understand that this use case will likely
+                                        be difficult based on network latencies, forcing us to re-evaluate our roadmap.
                                     </Text>
                                     <Text>
                                         Portal is still building the same functionality needed to serve JSON-RPC but we expect the performance of the
