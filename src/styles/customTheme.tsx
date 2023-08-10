@@ -28,12 +28,6 @@ const customTheme = extendTheme({
                         ? lightenColor(props.colorMode, props.theme.colors.pageBackground.dark, 0.1)
                         : "contentBackground.light",
             },
-            // ".faq-container-inset": {
-            //     bg:
-            //         props.colorMode === "dark"
-            //             ? lightenColor(props.colorMode, props.theme.colors.pageBackground.dark, 0.05)
-            //             : "contentBackground.light",
-            // },
         }),
     },
     components: {
